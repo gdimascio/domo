@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./public/css/styles.css">
+    <link rel="stylesheet" href="./public/css/normalize.css">
+    <script type="text/javascript" src="./public/js/script.js"></script>
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/0fce3c0945.js" crossorigin="anonymous"></script>
+
+    <!-- icon -->
+    <link rel="icon" href="./public/img/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <title>Compleet Labs</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-div">
+            <div class="header-left">
+                <h1>compleet labs</h1>
+            </div>
+            <div class="header-right">
+                <a href="javascript:void(0);" class="burger-menu" onclick="burger_menu()"><i class="fas fa-bars"></i></a>
+
+                <nav class="header-navbar">
+                    <ul>
+                        <li><a href="./home.html">Home</a></li>
+                        <li><a class="opac" href="#services">Services</a></li>
+                        <li><a class="opac" href="#technology">Technology</a></li>
+                        <li><a class="opac" href="#clients">Case studies</a></li>
+                        <li><a class="opac" href="#">About</a></li>
+                        <li><i class="fa-solid fa-table-list"></i><a href="#">Hire us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="burger-links" id="_burger-links" style="transform: translateX(100%);">
+            <i onclick="burger_menu()" class="fa-solid fa-xmark"></i>
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#clients">Case studies</a></li>
+                <li><a href="#">About</a></li>
+                <li><i class="fa-solid fa-table-list"></i><a href="#">Hire us</a></li>
+            </ul>
+        </div>
+
+        <img src="./public/img/asset-background.jpg" class="bkg-img">
+    </header>
+
+    <main>
+        <section class="sctn1-intro">
+            <div class="intro-div">
+                <h2>We build beautiful and reliable web solutions</h2>
+                <p>We strongly believe that communication, trust and transparency are the essential elements of successful business relationship.</p>
+                <p>Ready for the journey?</p>
+            </div>
+            <div class="intro-buttons">
+                <button>Learn more</button>
+                <button>Our Projects -> </button>
+            </div>
+        </section>
+
+        <section class="sctn2-services" id="services">
+            <div class="services-div">
+                <h3>Our Services</h3>
+                <p>We feel strong about our skills when it comes to planning, designing and coding applications. Here is what we love to do!</p>
+            </div>
+            <div class="srvcs-row">
+                <div class="srvcs-concept">
+                    <i class="fa-solid fa-newspaper"></i>
+                    <h4>Business & Product Concept</h4>
+                    <p>Analyse business and product concepts at Start-up Workshops or Ongoing Projects' Audits and prepare a viable and sensible product roadmap for achieving a perfect market fit.</p>
+                    <button href="#">Learn more</button>
+                </div>
+                
+                <div class="srvcs-dev">
+                    <i class="fa-solid fa-desktop"></i>
+                    <h4>Web & Mobile Development</h4>
+                    <p>Plan, develop and test high-quality web-applications using AngularJS, NodeJS, JavaScript, Typescript, HTML5 and SASS/CSS3 frameworks and native mobile languages.</p>
+                    <button href="#">Learn more</button>
+                </div>
+
+                <div class="srvcs-design">
+                    <i class="fa-solid fa-pen-ruler"></i>
+                    <h4>UX & UI Design</h4>
+                    <p>Sketch information architecture and simple mock-ups, convert them into clickable prototypes and finish with usable interface designs to deliver a good and reliable user experience.</p>
+                    <button href="#">Learn more</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="sctn3-technology" id="technology">
+            <div class="tech">
+                <h4>We use cutting edge technology</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, cubilia maecenas eu mattis cum velit dui, vulputate nibh risus congue venenatis sem. Sagittis pharetra cursus molestie quis nisl condimentum massa sapien elementum at scelerisque, ullamcorper congue cubilia diam pretium eros integer lectus magna urna.</p>
+            </div>
+            <div class="icons">
+                <img src="./public/img/tech/HTML5.png" alt="">
+                <img src="./public/img/tech/CSS.png" alt="">
+                <img src="./public/img/tech/Sass.png" alt="">
+                <img src="./public/img/tech/Javascript.png" alt="">
+                <img src="./public/img/tech/Angular.png" alt="">
+                <img src="./public/img/tech/Python.png" alt="">
+            </div>
+        </section>
+
+        <section class="sctn4-clients" id="clients">
+            <p>CLIENTS WE WORKED WITH</p>
+            <div class="marcas">
+                <img src="./public/img/clientes/TNW.png" alt="">
+                <img src="./public/img/clientes/GOOGLE.png" alt="">
+                <img src="./public/img/clientes/NIKE.png" alt="">
+                <img src="./public/img/clientes/AIRBNB.png" alt="">
+                <img src="./public/img/clientes/ITNewsAfrica_logo.PGN.PNG" alt="">
+            </div>
+
+            <div class="contacto">
+                <div class="touch">
+                    <h5>Get in touch with us</h5>
+                    <p>Maecenas sed diam eget risus varius blandit sit amet non magna</p>
+                    <button>Hire us</button>
+                </div>
+                <div class="projects">
+                    <h5>Our Projects</h5>
+                    <p>Maecenas sed diam eget risus varius blandit sit amet non magna</p>
+                    <button>See Projects</button>
+                </div>
+            </div>
+
+
+
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="left">
+                <h5>compleet labs</h5>
+                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec ullamcorper nulla.</p>
+                <div class="social">
+                    <img src="./public/img/social/twitter.png" alt="">
+                    <img src="./public/img/social/dribble3.png" alt="">
+                    <img src="./public/img/social/facebook.png" alt="">
+                    <img src="./public/img/social/instagram.png" alt="">
+                </div>
+            </div>
+            <div class="right">
+                <div class="site">
+                    <h6>SITEMAP</h6>
+                    <div class="right-p">
+                        <p>Home</p>
+                        <p>Technology</p>
+                        <p>Services</p>
+                        <p>About</p>    
+                    </div>
+                </div>
+                <div class="case">
+                    <h6>CASE STUDIES</h6>
+                    <div class="right-p">
+                        <p>Swiss Airlines</p>
+                        <p>Google</p>
+                        <p>Apple</p>
+                        <p>Nike</p>
+                    </div>
+                </div>
+                <div class="cont">
+                    <h6>CONTACT</h6>
+                    <div class="right-p">
+                        <p>Jobs</p>
+                        <p>Hire us</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="madeby">
+            <a href="https://gdimascio.vercel.app/">Made by Guido Di Mascio</a>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
